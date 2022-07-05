@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": true,
+        "allowUnusedLabels": false,
+        "alwaysStrict": false,
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "module": "ESNext",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "Node",
+        "strict": false,
+        "types": [
+            "node"
+        ],
+        "target": "ESNext",
+        "outDir": "./build",
+        "declaration": true,
+        "allowJs": false,
+        "lib": [
+            "es5",
+            "es2015",
+            "es2016",
+            "es2017",
+            "es2018",
+            "dom"
+        ],
+        "typeRoots": [
+            "./node_modules/@types/",
+            "./src/typings.d.ts"
+        ],
+        "paths": {
+            "@/*": [
+                "./src/*",
+            ]
+        },
+        "checkJs": false,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "noEmitOnError": false,
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "**/*.css",
+        "**/*.less"
+    ],
+}
