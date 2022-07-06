@@ -25,8 +25,8 @@
 
 module.exports = {
   extends: [require.resolve("@umijs/fabric/dist/eslint")],
-  // rules: {
-  //   "no-console": ["error"],
-  //   "no-debugger": 1,
-  // },
+  rules: {
+    // "no-console": "error",
+    // "no-debugger": "error",
+  },
 };

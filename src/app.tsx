@@ -4,7 +4,6 @@ import "./app.less";
 import styles from "./app.module.less";
 
 export default function App() {
-  debugger;
   return (
     <div className={`app ${styles.app}`} a="1">
       <BasicLayout />
