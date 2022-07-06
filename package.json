@@ -20,8 +20,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
-    "**/*.less": "stylelint --syntax less",
-    "**/*.{js,jsx,ts,tsx}": "npm run lint:js",
+    "**/*.{js,jsx,ts,tsx,less}": "npm run lint:fix",
     "**/*.{js,jsx,tsx,ts,less,md,json}": [
       "prettier --write"
     ]
